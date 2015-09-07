@@ -1,5 +1,5 @@
 # Abstract
-A java [Play](https://www.playframework.com/) 2.4.2 [template](https://www.typesafe.com/activator/template/play-hibernate) with Hibernate.
+A java [Play](https://www.playframework.com/) 2.4.3 [template](https://www.typesafe.com/activator/template/play-hibernate) with Hibernate.
 
 ## Usage
 `activator new PROJECTNAME play-hibernate`
