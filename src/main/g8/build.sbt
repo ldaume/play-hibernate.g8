@@ -1,13 +1,16 @@
 import com.typesafe.sbt.packager.docker._
-name := """play-hibernate"""
 
-version := "1.0-SNAPSHOT"
+name := "$name$"
+
+organization := "$organization$"
+
+version := "0.0.1-SNAPSHOT"
 
 lazy val root = (project in file(".")).enablePlugins(PlayJava, JavaAppPackaging, DockerPlugin)
 
 javacOptions ++= Seq("-source", "1.8", "-target", "1.8")
 
-scalaVersion := "2.11.7"
+scalaVersion := "2.11.8"
 
 resolvers += Resolver.mavenLocal
 
@@ -50,4 +53,3 @@ dockerExposedPorts in Docker := Seq(9000, 9443)
 //dockerUpdateLatest := true
 
 // run this with: docker run -p 9000:9000 <name>:<version>
-
