@@ -2,7 +2,7 @@
 A java [Play](https://www.playframework.com/) 2.4.3 [Giter8](http://www.foundweekends.org/giter8/) template with Hibernate.
 
 ## Usage
-`sbt new ldaume/play-hibernate.g8 --name=play-hibernate`
+`sbt new ldaume/play-hibernate.g8`
 
 ## Introduction
 A starting template if you want to develop a micro service with hibernate.
