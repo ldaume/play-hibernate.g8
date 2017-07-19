@@ -1,3 +1,10 @@
+| Dependencies UpToDate | License |
+|:---------------------:|:-------:|
+| [![Dependencies UpToDate](https://ci.reinvent-software.de/buildStatus/icon?job=play-hibernate-template-DependencyCheck)](https://ci.reinvent-software.de/job/play-hibernate-template-DependencyCheck) | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) |
+
+Play Hibernate Template
+=======================
+
 # Abstract
 A java [Play](https://www.playframework.com/) 2.4.3 [Giter8](http://www.foundweekends.org/giter8/) template with Hibernate.
 
