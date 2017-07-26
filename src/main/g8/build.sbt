@@ -23,6 +23,7 @@ libraryDependencies ++= Seq(
   ehcache,
   javaWs,
   guice,
+  "com.jayway.jsonpath" % "json-path" % "2.4.0",
   "software.reinvent" % "commons" % "0.3.3",
   "org.assertj" % "assertj-core" % "3.8.0" % "test"
 )
