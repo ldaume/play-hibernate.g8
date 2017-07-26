@@ -19,13 +19,15 @@ libraryDependencies ++= Seq(
   // JPA dependencies to avoid conflicts.
   javaJpa,
   "org.hibernate" % "hibernate-core" % "5.2.10.Final",
-  "mysql" % "mysql-connector-java" % "5.1.36",
+  "mysql" % "mysql-connector-java" % "5.1.43",
   ehcache,
   javaWs,
   guice,
   "software.reinvent" % "commons" % "0.3.3",
   "org.assertj" % "assertj-core" % "3.8.0" % "test"
 )
+
+dependencyUpdatesExclusions := moduleFilter(organization = "mysql")
 
 // Play provides two styles of routers, one expects its actions to be injected, the
 // other, legacy style, accesses its actions statically.
