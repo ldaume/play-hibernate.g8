@@ -6,7 +6,7 @@ Play Hibernate Template
 =======================
 
 # Abstract
-A java [Play](https://www.playframework.com/) 2.4.3 [Giter8](http://www.foundweekends.org/giter8/) template with Hibernate.
+A java [Play](https://www.playframework.com/) 2.6.2 [Giter8](http://www.foundweekends.org/giter8/) template with Hibernate.
 
 ## Usage
 `sbt new ldaume/play-hibernate.g8`
