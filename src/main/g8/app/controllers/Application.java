@@ -1,5 +1,7 @@
 package controllers;
 
+import com.google.inject.Inject;
+
 import play.*;
 import play.mvc.*;
 import java.util.concurrent.CompletionStage;
