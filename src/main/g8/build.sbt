@@ -12,7 +12,11 @@ javacOptions ++= Seq("-source", "1.8", "-target", "1.8")
 
 scalaVersion := "2.12.2"
 
-resolvers += Resolver.mavenLocal
+resolvers ++= Seq(
+  Resolver.mavenLocal,
+  Resolver.jcenterRepo,
+  "ReInvent Software OSS" at "https://maven.reinvent-software.de/nexus/content/groups/public"
+)
 
 libraryDependencies ++= Seq(
   // If you enable PlayEbean plugin you must remove these
