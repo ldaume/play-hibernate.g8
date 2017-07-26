@@ -7,6 +7,8 @@ import play.libs.concurrent.HttpExecutionContext;
 
 import views.html.*;
 
+import static java.util.concurrent.CompletableFuture.supplyAsync;
+
 public class Application extends Controller {
 
       private final HttpExecutionContext ec;
