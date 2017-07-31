@@ -28,7 +28,7 @@ libraryDependencies ++= Seq(
   javaWs,
   guice,
   "com.jayway.jsonpath" % "json-path" % "2.4.0",
-  "software.reinvent" % "commons" % "0.3.3",
+  "software.reinvent" % "commons" % "0.3.4",
   "org.assertj" % "assertj-core" % "3.8.0" % "test"
 )
 
@@ -41,7 +41,7 @@ routesGenerator := InjectedRoutesGenerator
 // --------------------
 // ------ DOCKER ------
 // --------------------
-// build with activator docker:publishLocal
+// build with sbt docker:publishLocal
 
 // change to smaller base image
 dockerBaseImage := "frolvlad/alpine-oraclejdk8:latest"
