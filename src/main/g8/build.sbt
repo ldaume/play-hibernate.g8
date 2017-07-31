@@ -32,7 +32,7 @@ libraryDependencies ++= Seq(
   "org.assertj" % "assertj-core" % "3.8.0" % "test"
 )
 
-dependencyUpdatesExclusions := moduleFilter(organization = "mysql")
+dependencyUpdatesFilter -= moduleFilter(organization = "mysql")
 
 // Play provides two styles of routers, one expects its actions to be injected, the
 // other, legacy style, accesses its actions statically.
